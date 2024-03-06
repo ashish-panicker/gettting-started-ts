@@ -1,5 +1,7 @@
 import { printArray } from './printArray.js';
 import Course from './course.js';
+import sum from './oper.js';
+import Box from './box.js';
 let user = 'Ashish';
 let age = 30;
 let isMentor = true;
@@ -29,4 +31,8 @@ let employee = {
     designation: 'Manager'
 };
 let course = new Course('JS', ['Variables', 'Functions']);
+console.log(sum(1, 2, 3));
+console.log(sum(1, 2, 3, 4, 5));
+let strbox = new Box('welcome');
+let numbox = new Box(10);
 //# sourceMappingURL=index.js.map

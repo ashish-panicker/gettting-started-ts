@@ -1,5 +1,7 @@
 import { printArray } from './printArray.js'
 import Course from './course.js'
+import sum from './oper.js'
+import Box from './box.js'
 
 let user: string = 'Ashish'
 let age: number = 30
@@ -60,4 +62,9 @@ let employee: Manager = {
     designation: 'Manager'
 }
 
-let course = new Course('JS', ['Variables', 'Functions'] )
+let course = new Course('JS', ['Variables', 'Functions'])
+console.log(sum(1, 2, 3))
+console.log(sum(1, 2, 3, 4, 5))
+
+let strbox = new Box<string>('welcome')
+let numbox = new Box<number>(10)
