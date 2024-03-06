@@ -1,0 +1,18 @@
+{
+  "name": "gettting-started-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "init":"tsc --init",
+    "compile": "tsc -w",
+    "start": "node ./public/index.js"
+  },
+  "keywords": [],
+  "author": "ashish s panicker",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
